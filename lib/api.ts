@@ -1,5 +1,4 @@
-const API_BASE = process.env.NEXT_PUBLIC_API_URL || '/api';
-
+const API_BASE = '/api';
 export type Scheme = {
   id:number; name:string; category:string; description:string; benefits:string[]; eligibility:string[];
   documents:string[]; application_procedure:string[]; state_scope:string; official_url:string; verification_notes:string;
