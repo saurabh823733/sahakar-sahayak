@@ -1,0 +1,14 @@
+node_modules/
+.next/
+.vercel/
+*.log
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+.env.local
+.env.*.local
+*.db
+backend/uploads/*
+!backend/uploads/.gitkeep
